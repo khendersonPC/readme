@@ -4,7 +4,7 @@
   # ReadMe Generator
 
 
-### This is a project that automatically allows you to generate a readme.md file for use after answering some simple questions in terminal.
+### This is a project that allows you to generate a readme.md based on answering a few simple questions in the command-line.
 
 #### Built with: 
   * node.js
@@ -26,7 +26,7 @@
 ## Usage
 ![alt text](https://github.com/khendersonPC/readme/blob/master/Develop/images/screenshot.png)
 
-The image above is an example of the readme file that will be created after inputting your information.
+The screenshot above is an example of the readme file that is generated.
 
 ## Contributing
 To contribute to ReadMe Generator, follow these steps:
@@ -38,7 +38,7 @@ To contribute to ReadMe Generator, follow these steps:
 
 
 ## Test
-These are test instructions.
+These are the test instructions.
 
 ## License
 This project is covered under a MIT license. 
