@@ -20,7 +20,7 @@ function generateMarkdown(data) {
   * [Questions](#questions)
 
 ## Installation
-* Clone the repo--> git clone https://github.com/${data.githubName}/${data.title}.git
+* Clone the repo--> git clone https://github.com/khendersonPC/readme.git
 
 * Install NPM packages--> npm install
 
@@ -44,7 +44,7 @@ This project is covered under a ${data.license} license.
 
 ## Questions
 This is my [GitHub Profile](https://github.com/${data.githubName}/) to check out my other repos.
-Best way to reach me?\n 
+\nBest way to reach me?
 ${data.email}
   
 `;
