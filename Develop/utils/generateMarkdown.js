@@ -1,32 +1,34 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `#${data.title}\n
+  return `
+  ![](https://img.shields.io/badge/license-${data.license}-green)
 
-###${data.description}
-\n
-####Built with: 
+  # ${data.title}\n
+
+### ${data.description}
+
+#### Built with: 
   * ${data.tech1}
   * ${data.tech2}
 
 ## Table of Contents
-  * Installation
-  * Usage
-  * Contributing
-  * Test
-  * License
-  * Questions
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Test](#test)
+  * [License](#license)
+  * [Questions](#questions)
 
 ## Installation
-* Clone the repo
-\tgit clone https://github.com/your_username_/Project-Name.git
-*Install NPM packages
-\tnpm install
+* Clone the repo--> git clone https://github.com/${data.githubName}/${data.title}.git
 
-## Usage\n
+* Install NPM packages--> npm install
+
+## Usage
 ![alt text](${data.imgPath})\n
 ${data.usage}
-\n
-## Contributing\n
+
+## Contributing
 To contribute to ${data.title}, follow these steps:
 1. Fork this repository.
 2. Create a branch: "git checkout -b <branch_name>".
@@ -34,14 +36,15 @@ To contribute to ${data.title}, follow these steps:
 4. Push to the original branch: "git push origin <${data.title}>/<location>"
 5. Create the pull request.
 \n
-## Test\n
+## Test
 ${data.test}
 
-## License\n
-${data.license}
+## License
+This project is covered under a ${data.license} license. 
 
 ## Questions
-${data.githubName}
+This is my [GitHub Profile](https://github.com/${data.githubName}/) to check out my other repos.
+Best way to reach me?\n 
 ${data.email}
   
 `;

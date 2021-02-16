@@ -71,7 +71,6 @@ function writeToFile(filename, readme) {
 function init() {
     inquirer.prompt(questions).then((data) => {
         const readme=generateMarkdown(data)
-        //const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
         writeToFile('readme.md', readme);
 
     });
@@ -79,17 +78,3 @@ function init() {
 
 // function call to initialize program
 init();
-
-// const songSnippet = `
-//   <div class="song">
-//      <h2>${music.title}</h2>
-//      <p class="artist">${music.artist}</p>
-//      <p class="album">${music.album}</p>
-//   </div>
-// `;
-// {
-//     type: 'checkbox',
-//     message: 'What languages do you know?',
-//     name: 'stack',
-//     choices: ['HTML', 'CSS', 'JavaScript', 'MySQL'],
-// },
