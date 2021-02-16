@@ -1,38 +1,39 @@
 
-  ![](https://img.shields.io/badge/license-MIT-green)
+  ![](https://img.shields.io/badge/license-Apache-2.0-green)
 
-  # Title
+  # My Title
 
 
-### short descrition
+### This is my short description.
 
 #### Built with: 
-  * tech1
-  * tech2
+  * tech #1
+  * tech #2
 
 ## Table of Contents
-  * Installation
-  * Usage
+  * [Installation](#installation)
+  * [Usage](#usage)
   * [Contributing](#contributing)
-  * Test
-  * License
-  * Questions
+  * [Test](#test)
+  * [License](#license)
+  * [Questions](#questions)
 
-## Installation {:#installation}
-* Clone the repo--> git clone https://github.com/khendersonPC/Title.git
+## Installation
+* Clone the repo--> git clone https://github.com/khendersonPC/My Title.git
+
 * Install NPM packages--> npm install
 
 ## Usage
-![alt text](img)
+![alt text](https://i.pinimg.com/originals/ed/64/ab/ed64ab1b0b12b106d396cc16c1d57953.jpg)
 
-this is how it is used
+this is a cat image.
 
-## Contributing {:#contributing}
-To contribute to Title, follow these steps:
+## Contributing
+To contribute to My Title, follow these steps:
 1. Fork this repository.
 2. Create a branch: "git checkout -b <branch_name>".
 3. Make your changes and commit them: "git commit -m '<commit_message>"
-4. Push to the original branch: "git push origin <Title>/<location>"
+4. Push to the original branch: "git push origin <My Title>/<location>"
 5. Create the pull request.
 
 
@@ -40,7 +41,7 @@ To contribute to Title, follow these steps:
 test instructions
 
 ## License
-This project is covered under a MIT license. 
+This project is covered under a Apache-2.0 license. 
 
 ## Questions
 This is my [GitHub Profile](https://github.com/khendersonPC/) to check out my other repos.
