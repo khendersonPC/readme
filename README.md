@@ -24,10 +24,9 @@
 * Install NPM packages--> npm install
 
 ## Usage
-![alt text](https://drive.google.com/file/d/10klqktEfCsq6vzS9d9LXUVlDGGP4L9eh/view)
-<iframe src="https://drive.google.com/file/d/10klqktEfCsq6vzS9d9LXUVlDGGP4L9eh/preview" width="640" height="480"></iframe>
+![readMe GIF](https://github.com/khendersonPC/readme/blob/master/Develop/images/readMe.gif)
 
-The screenshot above is an example of the readme file that is generated.
+The gif above is an example of how to use the readme generator.
 
 ## Contributing
 To contribute to ReadMe Generator, follow these steps:
